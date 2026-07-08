@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Magic Tale | Personalized Children's Books | Every Child is a Hero</title>
+  <meta name="description" content="Create premium personalized storybooks featuring your child's name, face, hobbies, and cultural setting. Printed on thick lay-flat glossy pages and shipped worldwide.">
+  <meta name="keywords" content="personalized children books, custom storybooks, children photo books, AI story generator, kids birthday gift">
+  <meta name="author" content="Magic Tale Team">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Plus+Jakarta+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Floating Animated Background Blobs -->
+  <div class="blob-container">
+    <div class="bg-blob blob-purple"></div>
+    <div class="bg-blob blob-blue"></div>
+    <div class="bg-blob blob-cyan"></div>
+  </div>
+
+  <!-- Header / Navigation -->
+  <header class="glass-nav">
+    <div class="nav-container">
+      <a href="#" class="logo-link" id="nav-logo">
+        <span class="logo-sparkle">✨</span> Magic Tale
+      </a>
+      <nav class="nav-links">
+        <a href="#about">Philosophy</a>
+        <a href="#studio">Book Studio</a>
+        <a href="#quality">Our Quality</a>
+        <a href="#faq">FAQs</a>
+      </nav>
+      <div class="nav-actions">
+        <a href="#studio" class="btn btn-primary glass-btn">Create Story</a>
+      </div>
+      <button class="mobile-menu-toggle" id="mobile-toggle" aria-label="Toggle Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobile-menu">
+      <a href="#about" class="mobile-nav-link">Philosophy</a>
+      <a href="#studio" class="mobile-nav-link">Book Studio</a>
+      <a href="#quality" class="mobile-nav-link">Our Quality</a>
+      <a href="#faq" class="mobile-nav-link">FAQs</a>
+      <a href="#studio" class="btn btn-primary glass-btn mobile-nav-link">Create Story</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+      <div class="hero-content">
+        <span class="badge">📖 Personalized AI Children's Storybooks</span>
+        <h1 class="hero-title">Make Your Child the <span class="text-gradient">Hero</span> of Their Own Adventure</h1>
+        <p class="hero-subtitle">Upload a few photos, select a theme, and tell us about your child's hobbies and heritage. We craft a bespoke hardcover storybook, print it on premium pages, and ship it straight to your doorstep.</p>
+        
+        <div class="hero-ctas">
+          <a href="#studio" class="btn btn-primary">Build a Book <span class="btn-arrow">→</span></a>
+          <a href="#about" class="btn btn-secondary">Learn More</a>
+        </div>
+        
+        <div class="hero-stats">
+          <div class="stat-item">
+            <span class="stat-number">24</span>
+            <span class="stat-label">Glossy Pages</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <span class="stat-number">100%</span>
+            <span class="stat-label">Custom Narratives</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <span class="stat-number">7 Days</span>
+            <span class="stat-label">Average Delivery</span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="hero-visual">
+        <div class="hero-book-wrapper">
+          <div class="hero-book-glow"></div>
+          <div class="hero-book">
+            <div class="book-cover">
+              <div class="book-cover-inner">
+                <span class="book-badge">New Release</span>
+                <h3>The Cosmic Voyager</h3>
+                <p>Featuring Your Child</p>
+                <div class="book-cover-graphic">✨🚀✨</div>
+              </div>
+            </div>
+            <div class="book-pages-stack"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Philosophy Section (Harari Quote) -->
+    <section class="philosophy-section" id="about">
+      <div class="container">
+        <div class="glass-card quote-card">
+          <div class="quote-header">
+            <span class="quote-icon">“</span>
+            <h2>Everything in this world runs on stories.</h2>
+          </div>
+          <blockquote class="philosophy-quote">
+            "Humans create stories of money, religion, companies, and all believe in them—and that way the whole world runs."
+            <cite class="quote-author">— Yuval Noah Harari, author of <em>Nexus</em> & <em>Sapiens</em></cite>
+          </blockquote>
+          
+          <div class="quote-divider"></div>
+          
+          <div class="philosophy-explanation">
+            <h3>Empower Your Child's Imagination</h3>
+            <p>If stories hold the power to shape humanity, let us give our children the most empowering stories of all—the ones where they are the center. At <strong>Magic Tale</strong>, we harness this exact concept. We create engaging, customized tales rooted in your child's immediate surroundings, their culture, and their hobbies.</p>
+            <p>By seeing themselves overcoming challenges in space, discovering local wonders, or building futuristic helper robots, children build strong foundations of self-esteem, empathy, and limitless creative vision.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Book Studio Section (Interactive Wizard) -->
+    <section class="studio-section" id="studio">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge">Studio</span>
+          <h2>Craft Your Magical Book</h2>
+          <p>Complete the steps below to customize your storybook and view an interactive preview.</p>
+        </div>
+
+        <div class="studio-grid">
+          <!-- Wizard Card (Left) -->
+          <div class="glass-card studio-wizard">
+            <!-- Steps Indicator -->
+            <div class="wizard-steps">
+              <div class="wizard-step active" data-step="1">
+                <span class="step-num">1</span>
+                <span class="step-title">Profile</span>
+              </div>
+              <div class="wizard-step-line"></div>
+              <div class="wizard-step" data-step="2">
+                <span class="step-num">2</span>
+                <span class="step-title">Photos</span>
+              </div>
+              <div class="wizard-step-line"></div>
+              <div class="wizard-step" data-step="3">
+                <span class="step-num">3</span>
+                <span class="step-title">Theme</span>
+              </div>
+            </div>
+
+            <!-- Wizard Form -->
+            <div class="wizard-form-container">
+              <!-- Step 1: Child Profile -->
+              <div class="form-step active" id="form-step-1">
+                <h3>Tell us about your child</h3>
+                <p class="step-subtitle">This helps customize the narrative and character traits.</p>
+                
+                <div class="form-group">
+                  <label for="child-name">Child's Name</label>
+                  <input type="text" id="child-name" placeholder="e.g. Leo, Aria" required autocomplete="off">
+                </div>
+                
+                <div class="form-grid">
+                  <div class="form-group">
+                    <label for="child-age">Age</label>
+                    <select id="child-age">
+                      <option value="3">3 years</option>
+                      <option value="4">4 years</option>
+                      <option value="5" selected>5 years</option>
+                      <option value="6">6 years</option>
+                      <option value="7">7 years</option>
+                      <option value="8">8 years</option>
+                      <option value="9">9+ years</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label for="child-gender">Pronouns</label>
+                    <select id="child-gender">
+                      <option value="he">He/Him</option>
+                      <option value="she">She/Her</option>
+                      <option value="they">They/Them</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="child-hobbies">Hobbies & Interests (comma separated)</label>
+                  <input type="text" id="child-hobbies" placeholder="e.g. drawing, stargazing, soccer, building lego" value="stargazing, drawing">
+                </div>
+
+                <div class="form-group">
+                  <label for="child-culture">Cultural Background / Traditions</label>
+                  <input type="text" id="child-culture" placeholder="e.g. Diwali lights, Christmas trees, Lunar New Year" value="cultural lantern festivals">
+                </div>
+
+                <div class="step-actions">
+                  <button type="button" class="btn btn-primary next-step-btn" data-next="2">Next Step: Upload Photos</button>
+                </div>
+              </div>
+
+              <!-- Step 2: Photo Upload -->
+              <div class="form-step" id="form-step-2">
+                <h3>Upload Your Child's Photos</h3>
+                <p class="step-subtitle">Upload 1 to 3 clear front-facing photos. Our smart AI will recreate their face realistically on every page.</p>
+
+                <!-- Drag and Drop Zone -->
+                <div class="upload-dropzone" id="upload-zone">
+                  <input type="file" id="photo-input" accept="image/*" multiple style="display: none;">
+                  <div class="dropzone-content">
+                    <span class="upload-icon">📸</span>
+                    <p class="upload-text"><strong>Drag & Drop</strong> your photos here or <span class="browse-link">Browse files</span></p>
+                    <p class="upload-subtext">Supports PNG, JPG (Max 5MB each)</p>
+                  </div>
+                </div>
+
+                <!-- Previews Container -->
+                <div class="uploaded-previews" id="uploaded-previews-container">
+                  <!-- Dynamic previews will be added here -->
+                </div>
+
+                <!-- Simulating Face scan -->
+                <div class="face-scanner-alert" id="scanner-alert" style="display: none;">
+                  <div class="scanner-bar"></div>
+                  <p>✨ Magic Tale AI is matching face structures...</p>
+                </div>
+
+                <div class="step-actions">
+                  <button type="button" class="btn btn-secondary prev-step-btn" data-prev="1">Back</button>
+                  <button type="button" class="btn btn-primary next-step-btn" id="photo-next-btn" data-next="3" disabled>Next Step: Choose Theme</button>
+                </div>
+              </div>
+
+              <!-- Step 3: Adventure Setup & Theme -->
+              <div class="form-step" id="form-step-3">
+                <h3>Select Theme & Story Direction</h3>
+                <p class="step-subtitle">Customize the location, events, and lessons within the story.</p>
+
+                <div class="form-group">
+                  <label>Select Base Story Theme</label>
+                  <div class="theme-grid">
+                    <div class="theme-card active" data-theme="cosmic">
+                      <div class="theme-card-img" style="background-image: url('assets/cosmic_quest.jpg')"></div>
+                      <div class="theme-card-body">
+                        <h4>Cosmic Quest</h4>
+                        <span>Space adventure</span>
+                      </div>
+                    </div>
+                    <div class="theme-card" data-theme="fantasy">
+                      <div class="theme-card-img" style="background-image: url('assets/magical_forest.jpg')"></div>
+                      <div class="theme-card-body">
+                        <h4>Magical Forest</h4>
+                        <span>Fantasy & folklore</span>
+                      </div>
+                    </div>
+                    <div class="theme-card" data-theme="hero">
+                      <div class="theme-card-img" style="background-image: url('assets/future_hero.jpg')"></div>
+                      <div class="theme-card-body">
+                        <h4>Future Maker</h4>
+                        <span>Robots & careers</span>
+                      </div>
+                    </div>
+                    <div class="theme-card" data-theme="cultural">
+                      <div class="theme-card-img" style="background-image: url('assets/cultural_journey.jpg')"></div>
+                      <div class="theme-card-body">
+                        <h4>Ancient Heritage</h4>
+                        <span>Cultural folklore</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="story-location">Story Location Setting</label>
+                  <input type="text" id="story-location" placeholder="e.g. Neon city, floating sky castle, grandpa's orchard" value="The Nebula Valley">
+                </div>
+
+                <div class="form-grid">
+                  <div class="form-group">
+                    <label for="story-event">Core Event / Quest</label>
+                    <input type="text" id="story-event" placeholder="e.g. restoring a broken star, finding a lost calf" value="finding the lost starlight compass">
+                  </div>
+                  <div class="form-group">
+                    <label for="story-moral">Moral / Lesson</label>
+                    <select id="story-moral">
+                      <option value="Kindness guides all paths" selected>Kindness guides all paths</option>
+                      <option value="Curiosity unlocks new worlds">Curiosity unlocks new worlds</option>
+                      <option value="Persistence makes the impossible easy">Persistence makes the impossible easy</option>
+                      <option value="Family and heritage are our roots">Family and heritage are our roots</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="step-actions">
+                  <button type="button" class="btn btn-secondary prev-step-btn" data-prev="2">Back</button>
+                  <button type="button" class="btn btn-primary" id="generate-preview-btn">Generate Free Preview</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Live Book Preview Card (Right) -->
+          <div class="glass-card preview-card">
+            <div class="preview-header">
+              <span class="preview-status" id="preview-badge">Preview Mode</span>
+              <h3>Live Interactive Book</h3>
+            </div>
+            
+            <div class="book-interactive-container">
+              <!-- Animated Loading Spinner inside Book Area -->
+              <div class="book-loader" id="preview-loader" style="display: none;">
+                <div class="magic-wand-spinner">🔮</div>
+                <p>Writing your custom story...</p>
+              </div>
+
+              <!-- Interactive Flip Book -->
+              <div class="flip-book" id="interactive-book">
+                <!-- Cover Page -->
+                <div class="book-page active-page" id="page-cover">
+                  <div class="page-content cover-bg" id="preview-cover-bg" style="background-image: linear-gradient(135deg, rgba(38,20,95,0.85) 0%, rgba(9,10,35,0.95) 100%), url('assets/cosmic_quest.jpg');">
+                    <div class="cover-design">
+                      <span class="cover-sparkles">✨ ✨</span>
+                      <h2 class="preview-book-title" id="book-title-disp">The Cosmic Voyage of Aria</h2>
+                      <p class="preview-book-subtitle" id="book-sub-disp">An Interactive Personal Story</p>
+                      
+                      <!-- Child character preview zone -->
+                      <div class="cover-character-avatar">
+                        <div class="avatar-frame">
+                          <img id="child-photo-placeholder" src="" alt="Child avatar" style="display: none;">
+                          <div class="avatar-empty-sparkle" id="avatar-empty-state">👦👧</div>
+                        </div>
+                        <span class="avatar-label" id="child-name-badge">Aria</span>
+                      </div>
+                      
+                      <div class="cover-footer">
+                        <span>High-Quality Lay-Flat Book</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Page 1 (The Narrative Intro) -->
+                <div class="book-page" id="page-1" style="display: none;">
+                  <div class="page-content narrative-page">
+                    <div class="narrative-split">
+                      <div class="narrative-visual" id="page-1-img" style="background-image: url('assets/cosmic_quest.jpg');">
+                        <!-- Tiny embedded profile photo if uploaded -->
+                        <div class="embedded-character-head" style="display: none;">
+                          <img class="embedded-face-img" src="" alt="child face">
+                        </div>
+                      </div>
+                      <div class="narrative-text">
+                        <span class="page-number">Page 1</span>
+                        <h4 id="page-1-heading">The Adventure Begins</h4>
+                        <p id="page-1-body">Once upon a time, in a magical place called <strong>The Nebula Valley</strong>, there lived a bright 5-year-old child named <strong>Aria</strong>. Aria was unlike any other child; they had a huge passion for <strong>stargazing, drawing</strong>, and exploring new horizons.</p>
+                        <p id="page-1-extra">Deep in their heart, Aria wanted to embark on a quest. With their bright eyes, they prepared for the journey ahead.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Page 2 (The Climax & Challenge) -->
+                <div class="book-page" id="page-2" style="display: none;">
+                  <div class="page-content narrative-page">
+                    <div class="narrative-split">
+                      <div class="narrative-visual" id="page-2-img" style="background-image: url('assets/cosmic_quest.jpg');">
+                        <!-- Dynamic overlay details -->
+                      </div>
+                      <div class="narrative-text">
+                        <span class="page-number">Page 2</span>
+                        <h4 id="page-2-heading">The Great Challenge</h4>
+                        <p id="page-2-body">Suddenly, a grand event unfolded in the skies! Aria set off on a mission: <strong>finding the lost starlight compass</strong>. Guided by the warmth of their local <strong>cultural lantern festivals</strong>, they knew this was their moment to shine.</p>
+                        <p id="page-2-extra">Through asteroid storms and stellar winds, they persevered, carrying the dreams of their home with them.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Page 3 (Resolution & Moral) -->
+                <div class="book-page" id="page-3" style="display: none;">
+                  <div class="page-content narrative-page">
+                    <div class="narrative-split">
+                      <div class="narrative-visual" id="page-3-img" style="background-image: url('assets/cosmic_quest.jpg');"></div>
+                      <div class="narrative-text">
+                        <span class="page-number">Page 3</span>
+                        <h4 id="page-3-heading">The Moral of the Tale</h4>
+                        <p id="page-3-body">With immense courage and sharp wit, Aria achieved the impossible and restored peace. As they held the radiant starlight compass high, the stars aligned to write a valuable truth in the cosmos: <strong id="page-3-moral-disp">"Kindness guides all paths"</strong>.</p>
+                        <p>Aria smiled, knowing that their hobbies and cultural heritage had helped save the universe. It was time to return home to sleep, dreaming of the next big story.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Page Controls -->
+            <div class="book-controls">
+              <button class="btn-control" id="prev-page-btn" disabled>◀ Back</button>
+              <span class="pages-indicator" id="page-indicator">Cover</span>
+              <button class="btn-control" id="next-page-btn">Next Page ▶</button>
+            </div>
+
+            <!-- Book Actions -->
+            <div class="preview-actions">
+              <button class="btn btn-primary btn-full" id="checkout-btn">
+                ✨ Order Printed Book — $24.99 <span class="old-price">$29.99</span>
+              </button>
+              <p class="preview-action-subtext">Free shipping & full preview custom adjustments included.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Shipping and Quality Details -->
+    <section class="quality-section" id="quality">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge">Craftsmanship</span>
+          <h2>Built to Last for Generations</h2>
+          <p>We believe digital stories are magical, but physical books form permanent keepsakes.</p>
+        </div>
+
+        <div class="quality-grid">
+          <!-- Quality Item 1 -->
+          <div class="glass-card quality-card">
+            <span class="quality-icon">📚</span>
+            <h3>Lay-Flat Hardcover</h3>
+            <p>Our custom children's books feature professional lay-flat binding, allowing kids to open pages fully without tearing or bending the spine.</p>
+          </div>
+
+          <!-- Quality Item 2 -->
+          <div class="glass-card quality-card">
+            <span class="quality-icon">✨</span>
+            <h3>200GSM Glossy Paper</h3>
+            <p>We use thick, high-density, smudge-resistant glossy pages. Fingerprints wipe right off, maintaining beautiful, bright illustration colors.</p>
+          </div>
+
+          <!-- Quality Item 3 -->
+          <div class="glass-card quality-card">
+            <span class="quality-icon">🌱</span>
+            <h3>Eco-Friendly & Kid-Safe</h3>
+            <p>Every book is printed using water-based, non-toxic organic inks, making them perfectly safe for little hands (and mouths!).</p>
+          </div>
+
+          <!-- Quality Item 4 -->
+          <div class="glass-card quality-card">
+            <span class="quality-icon">📦</span>
+            <h3>Secure Insured Shipping</h3>
+            <p>Each order is securely wrapped in bubble jackets and protective cardboards, shipping with live tracking straight to your home.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section" id="faq">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge">FAQ</span>
+          <h2>Have Questions?</h2>
+          <p>Everything you need to know about the magic of custom book creation.</p>
+        </div>
+
+        <div class="faq-list">
+          <!-- FAQ 1 -->
+          <div class="glass-card faq-item">
+            <button class="faq-question">
+              <span>How does the photo-to-illustration process work?</span>
+              <span class="faq-toggle-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>When you upload your child's photos, our advanced neural face embedding model extracts the essential structures of their facial features. It then recreates their likeness dynamically in various poses (astronaut, adventurer, explorer) inside our hand-drawn vector art style, ensuring their face fits perfectly into the environment on every single page.</p>
+            </div>
+          </div>
+
+          <!-- FAQ 2 -->
+          <div class="glass-card faq-item">
+            <button class="faq-question">
+              <span>Can I customize the text, moral, or setting of the book?</span>
+              <span class="faq-toggle-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>Yes, absolutely! In the Book Studio, you can specify your child's name, age, hobbies, and cultural traditions. You can also customize the setting (e.g. floating castles, alien valleys), the core challenge, and the moral of the story. The AI builds a completely custom script blending all these points smoothly.</p>
+            </div>
+          </div>
+
+          <!-- FAQ 3 -->
+          <div class="glass-card faq-item">
+            <button class="faq-question">
+              <span>How long does printing and delivery take?</span>
+              <span class="faq-toggle-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>Once you click "Approve for Print", it takes 2-3 business days to print and bind your custom hardcover book. Shipping takes another 4-5 business days. You will receive a tracking link via email as soon as the package leaves our printing facility.</p>
+            </div>
+          </div>
+
+          <!-- FAQ 4 -->
+          <div class="glass-card faq-item">
+            <button class="faq-question">
+              <span>What is the return policy?</span>
+              <span class="faq-toggle-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>Since each book is completely personalized and printed-on-demand for a single child, we cannot accept standard returns. However, if your book arrives damaged during shipment or has printing defects, we will reprint and ship a brand new copy to you at zero additional cost.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="glass-footer">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <a href="#" class="logo-link">✨ Magic Tale</a>
+        <p>Crafting magical memories that children hold onto forever.</p>
+      </div>
+      <div class="footer-links">
+        <div class="link-column">
+          <h4>Product</h4>
+          <a href="#studio">Book Studio</a>
+          <a href="#quality">Print Quality</a>
+          <a href="#about">Philosophy</a>
+        </div>
+        <div class="link-column">
+          <h4>Support</h4>
+          <a href="#faq">FAQs</a>
+          <a href="mailto:support@magictale.com">Email Support</a>
+          <a href="#">Terms & Privacy</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Magic Tale Inc. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Checkout Success Modal -->
+  <div class="modal-overlay" id="checkout-modal" style="display: none;">
+    <div class="glass-card success-modal">
+      <span class="success-icon">🎉</span>
+      <h2>Your Magic Tale Order is Placed!</h2>
+      <p>Thank you for creating a customized world of imagination. We are weaving your child's photos and stories into a high-quality hardcover edition.</p>
+      
+      <div class="order-summary-box">
+        <p><strong>Child's Name:</strong> <span id="summary-name">Leo</span></p>
+        <p><strong>Selected Theme:</strong> <span id="summary-theme">Cosmic Quest</span></p>
+        <p><strong>Story Moral:</strong> <span id="summary-moral">Kindness guides all paths</span></p>
+        <p><strong>Estimated Delivery:</strong> <span id="summary-delivery">7 Business Days</span></p>
+      </div>
+
+      <button class="btn btn-primary" id="close-modal-btn">Build Another Adventure</button>
+    </div>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="app.js"></script>
+</body>
+</html>
